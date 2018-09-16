@@ -127,7 +127,7 @@ void turnRight() {
   leftMotor.run(FORWARD);      // turn motor 1 forward
   rightMotor.run(BACKWARD);    // turn motor 4 backward
     
-  delay(100); // run motors this way for 1500        
+  delay(600); // run motors this way for 1500        
   
   leftMotor.run(FORWARD);      // set both motors back to forward
   rightMotor.run(FORWARD);
@@ -139,7 +139,7 @@ void turnLeft() {
   leftMotor.run(BACKWARD);      // turn motor 1 backward
   rightMotor.run(FORWARD);     // turn motor 4 forward
   
-  delay(100); // run motors this way for 1500  
+  delay(600); // run motors this way for 1500  
   
   leftMotor.run(FORWARD);      // turn it on going forward
   rightMotor.run(FORWARD);     // turn it on going forward
@@ -150,7 +150,7 @@ void turnAround() {
   leftMotor.run(FORWARD);      // turn motor 1 forward
   rightMotor.run(BACKWARD);    // turn motor 4 backward
   
-  delay(100); // run motors this way for 1700
+  delay(800); // run motors this way for 1700
   
   leftMotor.run(FORWARD);      // set both motors back to forward
   rightMotor.run(FORWARD);      
