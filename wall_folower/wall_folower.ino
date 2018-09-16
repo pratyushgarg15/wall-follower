@@ -8,7 +8,7 @@ const int trigPin3 = A4;
 const int echoPin3 = A5;
 
 #define TurnDistance 8
-#define FrontDistance 5
+#define FrontDistance 6
 
 
 AF_DCMotor leftMotor(2, MOTOR12_1KHZ); // create motor #1, using M2 output, set to 1kHz PWM frequency
